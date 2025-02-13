@@ -1,0 +1,3 @@
+01  WS-AMOUNT PIC 9(5)V99 VALUE 0.00. MOVE 12345.67 TO WS-AMOUNT. IF WS-AMOUNT > 10000 THEN ...
+
+* In this improved code, the WS-AMOUNT field is explicitly defined with a decimal point, preventing truncation of the decimal portion.  All numeric operations should be designed with explicit precision in mind.
